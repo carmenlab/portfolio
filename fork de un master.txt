@@ -1,0 +1,16 @@
+Gaby pc@Gaby MINGW64 ~
+$ cd desktop
+
+Gaby pc@Gaby MINGW64 ~/desktop
+$ cd laboratoria
+
+Acceder a mi carpeta donde queremos dejar la copia:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria   
+$ ls
+ aprenderAaprender.txt    ejemplotestDatalovers.txt   GDL003-data-lovers/  'LOL paginamuestra'/     'Notas Test.txt'  'pull request .txt'
+'Archivos Laboratoria'/  'fork de dataLovers.txt'    'Imagenes Cipher'/    'notas clonar fork.txt'  'Notas varias'/    song-exercise/
+ compararmerge.js         GDL003-cipher/             'Imagenes LOL'/       'notas datalovers'/       Practica/         zoomwall.js-master/
+
+hacer el fork de la cual queremos y despues Ahi copiar la liga de github en clonar y escribir:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ git clone https://github.com/carmenlab/GDL003-movie-challenge.git

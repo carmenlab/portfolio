@@ -1,0 +1,14 @@
+json view
+
+jsonview instalarlo
+
+COMO
+us de la tienda online/
+QUIERO
+	boton ordenar por precio
+PARA
+escoger el gel mas barato y comparar
+
+COMO desarrollador
+QUIERO una herramienta
+PARA recoger los requisitos del SW Fácil y bien

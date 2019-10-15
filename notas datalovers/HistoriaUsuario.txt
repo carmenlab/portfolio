@@ -1,0 +1,27 @@
+Historia Usuario:
+
+Yo como jugador de lol necesito una consulta para elegir el personaje que sea mas adecuado
+ al tipo de ataque que juegue y el rol que desarrollara.
+
+Criterios de aceptacion:
+Rol de personaje: Mapa
+Nombre de Personajes
+Poco Historia
+Tipo de Personaje
+(Introducir Runas a obtener para llegar a un cierto nivel)
+
+
+Definicion de terminado:
+Mostrar los Personajes y caracteristicas.
+
+Definition of DOM (DOD)
+Imagen Principal 
+Seleccion de Rol de personaje
+Tabla de Estadisticas del Personaje
+Mostrar las imagenes de los Personajes
+Responsive WebDesign (RWD) En todos los dispositivos
+Testing 
+-usabilidad
+-funcionalidad
+
+

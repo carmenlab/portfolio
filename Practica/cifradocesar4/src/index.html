@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Pantalla Inicio-->
+    <div id="root">
+      <label class="btn">Gerencia:</label>
+      <input type="text" id="Gerencia"  placeholder="Introduce Gerencia"  class="cuadro" required>
+      <br>  
+      <br>
+        <label class="btn">Clave:</label>
+        <input type="password" id="clave" placeholder="Desplazamiento" size="15" maxlength="3"   class="cuadro" required>
+        <br><br>
+       <button id="EnvioGerencia" title="Envia Información" class="btn">Enviar</button>
+    </div>
+
+    <!--Segunda Pantalla Introduce mensaje    Menu: -Cifrar -Descifrar -->
+    <div id="cuadroMensaje">
+      <p id="MostrarGerencia"></p>
+      <!---<input type="text" id="mensaje" placeholder="Escribe tu mensaje" class="cuadro"><br><br>-->
+      <textarea id="mensaje" cols="60" rows="20"></textarea><br><br>
+      <button id="botoncifrar" title="Cifra el texto introducido" class="btn">Cifrar</button>
+      <button id="botondescifrar" title="Descifra el texto introducido" class="btn">Descifrar</button>
+    </div>
+
+    <!--Tercer Pantalla Mensaje descifrado  Opcion: -Regresar ó -Salir-->
+    <div id="cuadroDescifrado">
+      <p id="titulo"></p>
+      <!--<input type="text" id="mensajecifrado" class="cuadro"><br><br>-->
+      <textarea id="mensajecifrado" cols="60" rows="20"></textarea><br><br>
+      <input type="button" onclick="EnviarGerencia()" value="Menu" class="btn">
+      <button id="Inicio" title="Volver al Inicio" class="btn">Salir</button>
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

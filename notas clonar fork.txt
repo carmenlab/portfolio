@@ -1,0 +1,116 @@
+git clone y copiar la liga donde dice clone or download
+$ git clone https://github.com/carmenlab/song-exercise.git
+-----------------------------------------------
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ cd song-exercise
+meterse a la carpeta del repositorio
+----------------------------------------------
+para agregar la carpeta a la computadora -la persona que no es master
+git add upstream https://github.com/florenciasilva/song-exercise.git
+------------------------------------------------
+
+git remote -v
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+---------------------------------------------
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+upstream        https://github.com/florenciasilva/song-exercise.git (fetch)
+upstream        https://github.com/florenciasilva/song-exercise.git (push)
+--------------------------------------------
+$ git branch
+* master
+
+---------------------------------------
+$ git pull upstream master
+para actualizar los archivos
+-------------------------------------
+$ git remote add upstream https://github.com/florenciasilva/song-exercise.git
+
+
+git remote add upstream (alias)
+
+git branch (la rama)en ese caso master
+
+git pull upstream master
+
+
+
+Gaby pc@Gaby MINGW64 ~/desktop
+$ cd laboratoria
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ ls
+ GDL003-cipher/  'Imagenes Cipher'/  'notas datalovers'/  'Notas varias'/   Practica/
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ git clone https://github.com/carmenlab/song-exercise.git
+Cloning into 'song-exercise'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ ls
+ GDL003-cipher/     'notas clonar fork.txt'  'Notas varias'/   song-exercise/
+'Imagenes Cipher'/  'notas datalovers'/       Practica/
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ cd song-exercise
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git remote add upstream https://github.com/florenciasilva/song-exercise.git
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+upstream        https://github.com/florenciasilva/song-exercise.git (fetch)
+upstream        https://github.com/florenciasilva/song-exercise.git (push)
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git branch
+* master
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git pull upstream master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/florenciasilva/song-exercise
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Updating 4dc37bf..dae9618
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git pull upstream master
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/florenciasilva/song-exercise
+ * branch            master     -> FETCH_HEAD
+   dae9618..0ebcdcc  master     -> upstream/master
+Updating dae9618..0ebcdcc
+Fast-forward
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+
+pull request en la pagina de github y new pull
+
+antes de pull request:
+git pull upstream master (copia el archivo actualizado de la otra persona)

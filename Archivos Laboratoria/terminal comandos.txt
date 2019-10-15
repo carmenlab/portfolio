@@ -1,0 +1,25 @@
+ls -l
+muestra datos ocn detalles
+
+ls -la
+muestra archivos ocultos
+
+ls -la (atajos) ll
+
+abre visual code y el punto es para abrir desde esa posicion
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-md-links (master)
+$ code .
+
+
+open . (abre archivo en Explroador de Archivos)
+
+mv index.png index.js (cambia el nombre de la extension)
+
+cat package.json (cat es para ver el contenido del archivo)
+rm rf social-network (recursivo file,borrar archivos dentro de carpetas)
+npm install jest --save-dev
+
+para correr test manuales:
+./node_modules/.bin/jest test/
+
+impi instituto mexicano de la propiedad intelectual

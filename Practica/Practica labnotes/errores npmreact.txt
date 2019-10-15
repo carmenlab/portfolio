@@ -1,0 +1,258 @@
+Gaby pc@Gaby MINGW64 ~
+$ cd desktop
+
+Gaby pc@Gaby MINGW64 ~/desktop
+$ cd laboratoria
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm cache clean --force
+npm WARN using --force I sure hope you know what you are doing.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app labnotes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\labnotes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Unexpected end of JSON input while parsing near '..."dist":{"integrity":"'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T21_49_52_415Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... package.json
+Deleting labnotes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ ls
+ Agenda/                  ejemplotestDatalovers.txt   GDL003-data-lovers/      'Imagenes Cipher'/             'notas clonar fork.txt'   Practica/                     RIFA/
+ aprenderAaprender.txt   'fork de dataLovers.txt'     GDL003-md-links/         'Imagenes LOL'/                'notas datalovers'/      'Prototipo Movie challenge'/   song-exercise/
+'Archivos Laboratoria'/  'fork de un master.txt'      GDL003-movie-challenge/  'llamada a api sin https.png'  'Notas Test.txt'         'pull request .txt'            testworkshop.txt
+ compararmerge.js         GDL003-cipher/              GDL003-social-network/   'LOL paginamuestra'/           'Notas varias'/           RANDOM/                       zoomwall.js-master/
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app lab-notes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\lab-notes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Unexpected end of JSON input while parsing near '..."dist":{"integrity":"'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T21_54_13_816Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... package.json
+Deleting lab-notes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm cache verify
+Cache verified and compressed (~\AppData\Roaming\npm-cache\_cacache):
+Content verified: 197 (9660805 bytes)
+Index entries: 382
+Finished in 1.747s
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app labnotes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\labnotes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Unexpected end of JSON input while parsing near '..."dist":{"integrity":"'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T21_56_08_940Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... package.json
+Deleting labnotes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app labnotes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\labnotes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Unexpected end of JSON input while parsing near '..."dist":{"integrity":"'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T21_58_34_565Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... package.json
+Deleting labnotes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npx create-react-app labnotes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\labnotes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Unexpected end of JSON input while parsing near '..."dist":{"integrity":"'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T22_03_29_967Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... package.json
+Deleting labnotes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm -v
+6.9.0
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ node -v
+v12.3.1
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm uninstall -g create-react-app
+removed 91 packages in 4.003s
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app labnotes
+bash: /c/Users/Gaby pc/AppData/Roaming/npm/create-react-app: No such file or directory
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm clear cache --force
+npm WARN using --force I sure hope you know what you are doing.
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Gaby pc\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.9.0 C:\Program Files\nodejs\node_modules\npm
+
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm cache clean --force
+npm WARN using --force I sure hope you know what you are doing.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm i -g create-react-app
+C:\Users\Gaby pc\AppData\Roaming\npm\create-react-app -> C:\Users\Gaby pc\AppData\Roaming\npm\node_modules\create-react-app\index.js
++ create-react-app@3.1.1
+added 91 packages from 45 contributors in 84.361s
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app labnotes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\labnotes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+npm ERR! Maximum call stack size exceeded
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Gaby pc\AppData\Roaming\npm-cache\_logs\2019-09-02T22_19_37_841Z-debug.log
+
+Aborting installation.
+  npm install --save --save-exact --loglevel error react react-dom react-scripts has failed.
+
+Deleting generated file... node_modules
+Deleting generated file... package.json
+Deleting labnotes/ from C:\Users\Gaby pc\desktop\laboratoria
+Done.
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ npm i -g create-react-app
+C:\Users\Gaby pc\AppData\Roaming\npm\create-react-app -> C:\Users\Gaby pc\AppData\Roaming\npm\node_modules\create-react-app\index.js
++ create-react-app@3.1.1
+updated 1 package in 25.16s
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+$ create-react-app lab-notes
+
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\lab-notes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+
+> core-js@2.6.9 postinstall C:\Users\Gaby pc\desktop\laboratoria\lab-notes\node_modules\babel-runtime\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@3.1.4 postinstall C:\Users\Gaby pc\desktop\laboratoria\lab-notes\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
++ react-scripts@3.1.1
++ react-dom@16.9.0
++ react@16.9.0
+added 1436 packages from 685 contributors and audited 903611 packages in 416.202s
+found 0 vulnerabilities
+
+
+Initialized a git repository.
+
+Success! Created lab-notes at C:\Users\Gaby pc\desktop\laboratoria\lab-notes
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd lab-notes
+  npm start
+
+Happy hacking!
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria

@@ -1,0 +1,56 @@
+despues de que acepten pull request:
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   src/index.html
+        modified:   src/main.js
+        modified:   src/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Para Ignorar cambios en master:
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$ git stash
+warning: CRLF will be replaced by LF in src/main.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in src/style.css.
+The file will have its original line endings in your working directory
+Saved working directory and index state WIP on master: 057279f Se subieron fotos
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Descargar archivo nuestro de pagina github:
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 8 (delta 3), reused 7 (delta 3), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+From https://github.com/carmenlab/GDL003-data-lovers
+ * branch            master     -> FETCH_HEAD
+   057279f..9e3551f  master     -> origin/master
+Updating 057279f..9e3551f
+Fast-forward
+ package-lock.json |  3 +--
+ src/data.js       |  5 ++++-
+ src/index.html    |  6 ++++--
+ src/main.js       | 21 +++++++++++++++++++++
+ 4 files changed, 30 insertions(+), 5 deletions(-)
+
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$

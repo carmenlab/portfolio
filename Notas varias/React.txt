@@ -1,0 +1,73 @@
+https://2018.stateofjs.com/es/front-end-frameworks/react
+
+
+Framework React :
+react-react dome-react router
+
+npx no lo instale y lo ejecute
+
+sudo si da error
+
+
+npm start (abre un servidor localhost:3000)
+
+en src crear carpeta components
+
+import React from 'react';
+
+$ npm cache verify
+ npm uninstall -g create-react-app
+  npm cache clean --force
+ npm i -g create-react-app
+ create-react-app labnotes
+ npm i -g create-react-app
+
+ create-react-app lab-notes
+*(muestra lo siguiente)*
+Creating a new React app in C:\Users\Gaby pc\desktop\laboratoria\lab-notes.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+
+> core-js@2.6.9 postinstall C:\Users\Gaby pc\desktop\laboratoria\lab-notes\node_modules\babel-runtime\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@3.1.4 postinstall C:\Users\Gaby pc\desktop\laboratoria\lab-notes\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
++ react-scripts@3.1.1
++ react-dom@16.9.0
++ react@16.9.0
+added 1436 packages from 685 contributors and audited 903611 packages in 416.202s
+found 0 vulnerabilities
+
+
+Initialized a git repository.
+
+Success! Created lab-notes at C:\Users\Gaby pc\desktop\laboratoria\lab-notes
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd lab-notes
+  npm start
+
+Happy hacking!
+
+
+

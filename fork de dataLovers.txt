@@ -1,0 +1,60 @@
+Ubicarnos en carpeta donde queremos hacer el clonado de archivos:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+
+Ir al https://github.com/Laboratoria/GDL003-data-lovers
+y realizar un fork
+
+
+Dar click en clone or download y copiar la liga
+
+Irnos a la terminal gitbash:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+git clone https://github.com/carmenlab/GDL003-data-lovers.git
+($ git clone https://github.com/carmenlab/song-exercise.git)
+
+Acceder a la carpeta clonada:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria
+cd GDL003-data-lovers
+($ cd song-exercise)
+
+Hacer git remote:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/GDL003-data-lovers (master)
+$ git remote -v
+origin  https://github.com/carmenlab/GDL003-data-lovers.git (fetch)
+origin  https://github.com/carmenlab/GDL003-data-lovers.git (push)
+------
+Ejemplo song
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+----
+
+Para agregar la compañera la liga hacia el de nosotras:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git remote add upstream https://github.com/florenciasilva/song-exercise.git
+
+Para ver que rama somos:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git remote -v
+origin  https://github.com/carmenlab/song-exercise.git (fetch)
+origin  https://github.com/carmenlab/song-exercise.git (push)
+upstream        https://github.com/florenciasilva/song-exercise.git (fetch)
+upstream        https://github.com/florenciasilva/song-exercise.git (push)
+
+Para ver a la rama  en la cual estamos
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git branch
+* master
+
+Para descargar cambios de la rama principal:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/song-exercise (master)
+$ git pull upstream master
+
+una vez al realizar cambios:
+git add .
+git commit -m "Aqui el comentario"
+git push origin master
+(Todo esto para actualizar nuestro archivo)
+
+Para subir nuestro archivo al de la rama Principal :
+desde el github donde dice Pullrequest: new Pullrequest

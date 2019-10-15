@@ -1,0 +1,7 @@
+npm install chai
+(para no escribir todas las dependencias)
+npm install
+
+npm --v
+(para checar si esta instalado)
+npm run test

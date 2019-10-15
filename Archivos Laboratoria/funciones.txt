@@ -1,0 +1,4 @@
+iife
+immediatly invacble function expression
+
+

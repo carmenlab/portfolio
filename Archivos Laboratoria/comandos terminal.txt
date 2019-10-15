@@ -1,0 +1,23 @@
+pwd
+pre working directory
+(path)
+
+semver
+semantico version
+
+index.js
+console.log('hola')
+
+En la terminal:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/prueba-node (master)
+
+Ir a  la ruta donde tienes el archivo js:
+y despues:
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/prueba-node (master)
+node index.js 
+hola
+
+se puede quitar la extesion .js y solo escribir
+Gaby pc@Gaby MINGW64 ~/desktop/laboratoria/prueba-node (master)
+node index
+hola
